@@ -545,7 +545,7 @@ header{
 
 .home-about{
 	background-image: url(../images/about.jpg);
-    background-position:center center;
+    background-position:right;
     background-repeat:no-repeat;
     background-size: cover;
 	z-index: 2;
@@ -987,7 +987,7 @@ footer hr{
 }
 footer::before{
 	position: absolute;
-    background: url(../images/header-shape-1-1.png) no-repeat;
+    /* background: url(../images/header-shape-1-1.png) no-repeat; */
     top: -150px;
     left: 0;
     right: 0;
@@ -2638,7 +2638,7 @@ button.close-menu {
     display: flex;
     
     justify-content: center;
-    padding: 10px 80px;
+    /* padding: 10px 80px; */
 }
 
 /* .navbar .logo a {

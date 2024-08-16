@@ -23,7 +23,7 @@ Project: Yogastic
 @import url("../../../css2");
 
 body {
-  font-family: "Karla", sans-serif;
+  font-family: "system-ui";
 }
 :root {
   --e-global-color-primary: #242424;
@@ -582,7 +582,7 @@ p {
 /* Home Page Our Specialties Section Style */
 
 .our_specialties_section {
-  padding: 120px 0 108px;
+  padding: 120px 0 0px;
   position: relative;
 }
 .our_specialties_heading_content {
@@ -590,7 +590,7 @@ p {
 }
 .our_specialties_heading_content h5 {
   text-transform: uppercase;
-  color: var(--e-global-color-secondary);
+  color: #aa6949;
   letter-spacing: 3.1px;
   margin-bottom: 12px;
 }
@@ -625,7 +625,7 @@ p {
   position: relative;
 }
 .specialties_content .specialties_name {
-  font-family: "Playfair Display", serif;
+  font-family: "system-ui";
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
@@ -651,7 +651,7 @@ p {
   content: "\f058";
   height: 76px;
   width: 76px;
-  background-color: var(--e-global-color-secondary);
+  background-color: #aa6949;
   position: absolute;
   border-radius: 100%;
   z-index: 1;
@@ -686,7 +686,7 @@ p {
   content: "\f058";
   height: 76px;
   width: 76px;
-  background-color: var(--e-global-color-secondary);
+  background-color: #aa6949;
   position: absolute;
   border-radius: 100%;
   z-index: 1;
